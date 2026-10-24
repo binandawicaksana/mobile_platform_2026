@@ -2,6 +2,7 @@ import 'dart:io';
 
 void main(List<String> args) {
   var namaDepan = "Aura";
+  var namaTengah = "Rizky";
   var namaBelakang = "Ramadhani";
 
   print("Masukan Nilai A:");
@@ -10,7 +11,7 @@ void main(List<String> args) {
   print("Masukan Nilai B:");
   var b = num.parse(stdin.readLineSync()!);
 
-  print("Nama Lengkap : ${namaDepan} +' '+ ${namaBelakang}");
+  print("Nama Lengkap : ${namaDepan} ${namaTengah} ${namaBelakang}");
   print("Hasil Penjumlahan: ${a + b}");
   print("Hasil Pengurangan: ${a - b}");
   print("Hasil Perkalian: ${a * b}");
