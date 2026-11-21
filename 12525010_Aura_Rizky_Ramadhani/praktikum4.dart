@@ -8,7 +8,7 @@ void main() {
   print('Looping Kedua');
   for (var deret = 20; deret >= 2; deret--) {
     if (deret % 2 == 0) {
-      print(deret.toString() + '- I love Aten');
+      print(deret.toString() + '- I will become a mobile developer');
     }
   }
 }
